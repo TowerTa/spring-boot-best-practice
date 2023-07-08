@@ -1,4 +1,4 @@
-package cn.javastack.springboot.activemq;
+package cn.javastack.springboot.activemq.controller;
 
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;

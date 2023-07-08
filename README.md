@@ -79,3 +79,5 @@ Spring Boot 核心技术课，我目前把它分为了 16 个模块：
 <p align="center">
   <img src="http://img.javastack.cn/18-11-16/79719805.jpg">
 </p>
+
+使用JDK17的版本

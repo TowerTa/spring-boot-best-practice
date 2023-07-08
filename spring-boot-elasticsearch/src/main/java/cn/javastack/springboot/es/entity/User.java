@@ -1,4 +1,4 @@
-package cn.javastack.springboot.es;
+package cn.javastack.springboot.es.entity;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -7,6 +7,8 @@ import org.springframework.data.elasticsearch.annotations.Document;
 
 /**
  * 微信公众号：Java技术栈
+ *
+ *
  */
 @NoArgsConstructor
 @AllArgsConstructor
@@ -14,10 +16,18 @@ import org.springframework.data.elasticsearch.annotations.Document;
 @Document(indexName = "javastack")
 public class User {
 
+    /**
+     * id of user
+     */
     private long id;
 
+    /**
+     * name of user
+     */
     private String name;
 
-    private int sex;
-
+    /**
+     * sex of user
+     */
+    private String sex;
 }

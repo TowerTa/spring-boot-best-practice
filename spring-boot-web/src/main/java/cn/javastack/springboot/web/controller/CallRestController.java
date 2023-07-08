@@ -24,5 +24,4 @@ public class CallRestController {
     public User restTemplate(@PathVariable("uid") String uid) {
         return this.restTemplate.getForObject(GET_USERINFO_URL, User.class, uid);
     }
-
 }
